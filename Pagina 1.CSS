@@ -1,0 +1,135 @@
+body {
+  background-color: black;
+}
+#paco > img {
+  height: 70px;
+  float: left;
+  padding: 3px;
+}
+#paco {
+  padding: 11px;
+  overflow: auto;
+  background-color: white;
+}
+#paco > ul li {
+  float: right;
+  list-style: none;
+}
+#paco > ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin: 20px;
+  border: 2px solid black;
+  padding: 12.1px;
+  border-radius: 60px;
+  font-family: "Times New Roman", Times, serif;
+}
+#pacu > h2 {
+  color: rgb(247, 10, 10);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  height: 100px;
+  background-image: url(../Lovecraft/images/Lovecraft\ 2.jpg);
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+main #paca h2 {
+  color: white;
+  text-align: center;
+  border: 3px solid white;
+}
+main #paca p {
+  color: white;
+  text-align: center;
+}
+main #pan ul li {
+  list-style: none;
+  float: left;
+}
+main #pan ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 120px;
+  border: 5px solid white;
+  border-radius: 50px;
+  padding: 5px;
+}
+main #empanada h2 {
+  color: white;
+  margin: 40px 0px 5px 0px;
+  padding: 20px;
+  text-align: center;
+}
+main #empanada #melon td {
+  color: white;
+}
+main #empanada #melon {
+  width: 100%;
+  border: 3px solid white;
+  border-collapse: collapse;
+}
+main #empanada #melon td {
+  border: 3px solid white;
+  padding: 10px;
+}
+
+main #empanada #melon thead {
+  background-color: red;
+}
+main #EVA h2 {
+  color: white;
+  margin: 10px 0px 5px 0px;
+  padding: 20px;
+  text-align: center;
+}
+main #EVA #mango thead {
+  background-color: red;
+}
+main #EVA #mango td {
+  color: white;
+}
+main #EVA #mango {
+  width: 100%;
+  border: 3px solid white;
+  border-collapse: collapse;
+}
+main #EVA #mango td {
+  border: 3px solid white;
+  padding: 10px;
+}
+
+main #jugo h2 {
+  color: white;
+  margin: 10px 0px 5px 0px;
+  padding: 20px;
+  text-align: center;
+}
+main #jugo #tomate thead {
+  background-color: red;
+}
+main #jugo #tomate td {
+  color: white;
+}
+main #jugo #tomate {
+  width: 100%;
+  border: 3px solid white;
+  border-collapse: collapse;
+}
+main #jugo #tomate td {
+  border: 3px solid white;
+  padding: 10px;
+}
+footer {
+  background-color: white;
+}
+footer h3 {
+  text-align: center;
+  text-decoration: none;
+}
+footer h3 a {
+  text-decoration: none;
+  color: black;
+}
+
