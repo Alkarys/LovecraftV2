@@ -46,5 +46,7 @@ main #mandingo img {
 main #mandingo {
   color: white;
   float: right;
-  padding: 50px;
+}
+main #mandingo ul li {
+  list-style: none;
 }

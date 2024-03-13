@@ -29,7 +29,7 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   height: 100px;
-  background-image: url(../Lovecraft/images/Lovecraft\ 2.jpg);
+  background-image: url(./images/Lovecraft\ 2.jpg);
 }
 main {
   max-width: 1000px;
