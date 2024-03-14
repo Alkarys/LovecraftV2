@@ -31,6 +31,11 @@ body {
   height: 100px;
   background-image: url(../images/Lovecraft2.jpg);
 }
+#T1 {
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+}
 main {
   max-width: 1000px;
   margin: 0 auto;
@@ -57,9 +62,38 @@ main #T2 {
 }
 main #T3 {
   color: white;
+  padding: 0px 0px 10px 0px;
 }
 main #T3 img {
   height: 350px;
   float: left;
   padding: 0px 30px 0px 0px;
+}
+main #T4 img {
+  height: 350px;
+  float: right;
+  padding: 10px 0px 0px 20px;
+}
+main #T4 p {
+  color: white;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+main #T4 {
+  color: white;
+  padding-bottom: 50px;
+}
+main #T4 ul li {
+  color: white;
+}
+footer {
+  background-color: white;
+}
+footer h3 {
+  text-align: center;
+  text-decoration: none;
+}
+footer h3 a {
+  text-decoration: none;
+  color: black;
 }
