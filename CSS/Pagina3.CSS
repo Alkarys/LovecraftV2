@@ -50,10 +50,6 @@ main #PandA p a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 h3,
 h4,
 h5,
@@ -64,8 +60,8 @@ h6 {
 
 main table {
   color: white;
-  margin: 0px 30px 0px 0px;
 }
+
 main table #left img {
   height: 80px;
   object-fit: cover;
@@ -74,12 +70,7 @@ main table #left img {
   padding-bottom: 10px;
   padding-top: 10px;
 }
-table td#right {
-  width: 50%;
-  vertical-align: top;
-  border-left: 3px solid white;
-  padding-left: 10px;
-}
+
 table #left td p {
   margin: 20px;
   text-align: center;
@@ -88,4 +79,93 @@ table #left td p {
 }
 table #left td p a {
   color: white;
+}
+
+table #midleft {
+  width: 25%;
+  vertical-align: top;
+  border-left: 1px solid white;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-top: 8px;
+}
+main table #midleft img {
+  height: 80px;
+  object-fit: cover;
+  margin: auto;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+table #midleft td p {
+  margin: 30px;
+  text-align: center;
+  border: 1px solid white;
+  padding-bottom: 10px;
+}
+table #midleft td p a {
+  color: white;
+}
+table #midright {
+  width: 25%;
+  vertical-align: top;
+  border-left: 1px solid white;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 6px;
+  padding-right: 10px;
+}
+main table #midright img {
+  height: 80px;
+  object-fit: cover;
+  margin: auto;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+table #midright td p {
+  margin: 30px;
+  text-align: center;
+  border: 1px solid white;
+  padding-bottom: 10px;
+}
+table #midright td p a {
+  color: white;
+}
+table #right {
+  width: 25%;
+  vertical-align: top;
+  border-left: 1px solid white;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+main table #right img {
+  height: 80px;
+  object-fit: cover;
+  margin: auto;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+table #right td p {
+  margin: 30px;
+  text-align: center;
+  border: 1px solid white;
+  padding-bottom: 10px;
+}
+table #right td p a {
+  color: white;
+}
+footer {
+  background-color: white;
+}
+footer h3 {
+  text-align: center;
+  text-decoration: none;
+}
+footer h3 a {
+  text-decoration: none;
+  color: black;
 }
