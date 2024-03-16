@@ -39,21 +39,30 @@ main {
 }
 main > h1 {
   text-align: center;
+  padding-top: 5px;
+}
+main > h2 {
+  text-align: center;
+  color: black;
+  border: 1px solid white;
 }
 
-article {
-  padding: 20px ;
+#M1 {
+  padding: 20px;
   background-color: black;
   margin: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-table {
+#M1 table {
   width: 100%;
-  border: 2px solid red;
+  border: 1px solid white;
 }
-
+#M1 table tr th a {
+  text-decoration: none;
+  color: white;
+}
 th,
 td {
   padding: 8px;
@@ -66,14 +75,58 @@ th {
   font-weight: bold;
 }
 
-.image img {
-  width: 70%;
-}
-
-.description {
-  width: 30%;
+#M1 .image img {
+  width: 80%;
+  padding: 10px 0px 0px 30px;
 }
 
 p {
   line-height: 1.6;
+  padding-left: 15px;
+}
+h4 {
+  padding-left: 28px;
+}
+#M2 {
+  padding: 20px;
+  background-color: black;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#M2 table {
+  width: 100%;
+  border: 1px solid white;
+}
+#M2 table tr th a {
+  text-decoration: none;
+  color: white;
+}
+#M2 .image img {
+  height: 250px;
+  padding: 10px 0px 20px 10px;
+}
+#M3 {
+  padding: 20px;
+  background-color: black;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#M3 table {
+  width: 100%;
+  border: 1px solid white;
+}
+#M3 table tr th a {
+  text-decoration: none;
+  color: white;
+}
+#M3 .image img {
+  height: 180px;
+  padding: 10px 0px 20px 10px;
+}
+#M3 h4 {
+  padding-right: 100px;
 }
